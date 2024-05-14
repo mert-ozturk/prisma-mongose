@@ -39,10 +39,10 @@ const Navbar = ({openNav}:Props) => {
   return (
     <div className='h-[13vh] bg-white' >
        <div className='flex items-center justify-between w-[90%] xl:w-[80%] h-full mx-auto'>
-        <div className='text-[35px] font-semibold text-red-600'>
+        <Link href='/' className='text-[35px] font-semibold text-red-600'>
         RED <span>Mars</span>
         
-        </div>
+        </Link>
         
         <ul className='lg:flex hidden text-black items-center space-x-6 xl:space-x-10'>
             
